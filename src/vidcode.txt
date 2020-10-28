@@ -1,0 +1,7 @@
+<video class="video-js vid"
+        autoplay=true
+        muted=true
+        loop=true
+        vjs-fluid>
+            <source src="../assets/video.mp4" type="video/mp4">
+        </video>

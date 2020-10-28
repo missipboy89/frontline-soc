@@ -13,32 +13,31 @@
                 CALENDAR
             </b-card-text>
         </b-card>
-        <b-row>
-            <b-col md="auto">
-                <b-calendar
-                    v-model="value"
-                    :date-format-options="{ year: 'numeric', month: '2-digit', day: '2-digit' }"
-                    locale="en-US"></b-calendar>
-            </b-col>
-            <b-col>
-                <b-container>
-                    <b-table
-                        striped
-                        :select-mode="selectMode"
-                        selectable
-                        @row-selected="onRowSelected"
-                        head-variant="dark"
-                        :items="events"
-                        sort-by="date"
-                    >
-                    </b-table>
-                    {{ selected }}
-                </b-container>
-            </b-col>
-        </b-row>
-        <h1>{{  events[0].event }}</h1>
+        <b-container>
+            <b-table
+                striped
+                :select-mode="selectMode"
+                selectable
+                @row-selected="onRowSelected"
+                head-variant="dark"
+                :items="events"
+                sort-by="date"
+            >
+            </b-table>
+            <!-- I want this code to show the event in a specific format -->
+            {{ selected }}
+            <!--
+                I want something like
+                selected.event
+                selected.date and selected.time
+                slected.where
+            -->
+        </b-container>
+        <!--
+        <h1>{{ events[0].event }}</h1>
         <h3>{{ events[0].date }} at {{ events[0].time }}</h3>
         <h2>{{ events[0].where }}</h2>
+        -->
     </div>
 </template>
 
@@ -51,7 +50,7 @@ export default {
         return {
             value: '', // calendar value
             selectMode: 'single',
-            selected: ''
+            selected: 'Events Will Show Here.'
         }
     },
     computed: {

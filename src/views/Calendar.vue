@@ -25,7 +25,7 @@
             >
             </b-table>
             <!-- I want this code to show the event in a specific format -->
-            {{ selected }}
+            {{ selected[0].date }}
             <!--
                 I want something like
                 selected.event
@@ -33,11 +33,9 @@
                 slected.where
             -->
         </b-container>
-        <!--
-        <h1>{{ events[0].event }}</h1>
-        <h3>{{ events[0].date }} at {{ events[0].time }}</h3>
-        <h2>{{ events[0].where }}</h2>
-        -->
+        <h1>{{ selected.event }}</h1>
+        <h3>{{ selected.date }} at {{ selected.time }}</h3>
+        <h2>{{ selected.where }}</h2>
     </div>
 </template>
 
@@ -60,7 +58,7 @@ export default {
     },
     methods: {
         onRowSelected (items) {
-            this.selected = items
+            this.selected = items[0]
         }
     }
 }

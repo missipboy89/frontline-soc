@@ -24,18 +24,21 @@
                 sort-by="date"
             >
             </b-table>
-            <!-- I want this code to show the event in a specific format -->
-            {{ selected.date }}
-            <!--
-                I want something like
-                selected.event
-                selected.date and selected.time
-                slected.where
-            -->
+        <div v-if="selected.event">
+            <b-jumbotron>
+                <template class="event" #header>{{ selected.event }}</template>
+                <hr class="my-4">
+                <p class="when">
+                    {{ selected.date }} {{ selected.time }}
+                </p>
+                <p class="where">{{ selected.where }}</p>
+                <p class="extra" v-if="selected.event === 'Men\'s Night Out'">
+                    We will meet in the church parking lot in front of the family life center.
+                </p>
+                <b-button variant="primary" to="/contact">For More Info, Contact Us</b-button>
+            </b-jumbotron>
+        </div>
         </b-container>
-        <h1>{{ selected.event }}</h1>
-        <h3>{{ selected.date }} at {{ selected.time }}</h3>
-        <h2>{{ selected.where }}</h2>
     </div>
 </template>
 
@@ -82,5 +85,18 @@ export default {
 .img {
     margin: auto;
     padding: 0;
+}
+.when {
+    font-size: 50px;
+}
+.where {
+    font-size: 60px;
+}
+.event {
+    font-weight: bold;
+}
+.extra {
+    font-size: 20px;
+    font-weight: bold;
 }
 </style>

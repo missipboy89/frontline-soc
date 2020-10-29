@@ -25,7 +25,7 @@
             >
             </b-table>
             <!-- I want this code to show the event in a specific format -->
-            {{ selected[0].date }}
+            {{ selected.date }}
             <!--
                 I want something like
                 selected.event

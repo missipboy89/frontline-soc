@@ -8,3 +8,5 @@
                 <source src="../assets/video.mp4" type="video/mp4">
             </video>
         </div>
+
+<b-navbar-brand tag="h1" class="platoon" to="/">FRONTLINE SOC</b-navbar-brand>

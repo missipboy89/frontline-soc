@@ -1,7 +1,10 @@
-<video class="video-js vid"
-        autoplay=true
-        muted=true
-        loop=true
-        vjs-fluid>
-            <source src="../assets/video.mp4" type="video/mp4">
-        </video>
+        <div>
+            <video class="video-js vid"
+            autoplay=true
+            muted=true
+            loop=true
+            height="800"
+            vjs-fluid>
+                <source src="../assets/video.mp4" type="video/mp4">
+            </video>
+        </div>

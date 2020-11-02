@@ -12,7 +12,10 @@
             </b-card-text>
         </b-card>
         <b-container>
-            <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+            <b-form action="https://formspree.io/f/xayljbqo"
+            v-if="show"
+            method="POST"
+            >
                 <b-form-group
                     id="input-group-1"
                     label="Email address"
@@ -25,6 +28,7 @@
                         type="email"
                         required
                         placeholder="Enter email"
+                        name="_replyto"
                     ></b-form-input>
                 </b-form-group>
                 <b-form-group
@@ -37,6 +41,7 @@
                         v-model="form.name"
                         required
                         placeholder="Enter name"
+                        name="message"
                     ></b-form-input>
                     <b-form-group
                         id="textarea"
@@ -49,6 +54,7 @@
                             placeholder="Enter message..."
                             rows="5"
                             max-rows="10"
+                            name="message"
                         ></b-form-textarea>
                     </b-form-group>
                 </b-form-group>

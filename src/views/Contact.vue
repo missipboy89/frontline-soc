@@ -101,15 +101,50 @@ export default {
   font-family: PLATOoN;
   src: local("PLATOoN"),
   url(../fonts/PLATOoN.ttf) format("truetype");
-}
-.form {
-  font-family: "PLATOoN";
-  font-size: 200px;
-  color: black;
-  text-align: center;
-  margin: auto;
-  padding: 100px;
-  text-shadow: 2px 2px 20px white;
+}/* Mobile */
+@media (max-width: 480px) {
+    .form {
+    font-family: "PLATOoN";
+    font-size: 200px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    text-shadow: 2px 2px 20px white;
+    }
+}/* low res tab */
+@media (min-width: 481px) and (max-width: 767px) {
+    .form {
+    font-family: "PLATOoN";
+    font-size: 200px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    text-shadow: 2px 2px 20px white;
+    }
+}/* Tab */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form {
+    font-family: "PLATOoN";
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    text-shadow: 2px 2px 20px white;
+    }
+}/* Desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .form {
+    font-family: "PLATOoN";
+    font-size: 500px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    text-shadow: 2px 2px 20px white;
+    }
 }
 .img {
     margin: auto;

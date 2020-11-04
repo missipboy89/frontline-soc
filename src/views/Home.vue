@@ -1,7 +1,7 @@
 <template>
     <div>
         <b-img :src="require('../assets/unnamed.jpg')" fluid-grow></b-img>
-        <b-container fluid class="test">
+        <b-container fluid class="card">
             <b-card-group deck>
                 <b-card
                     title="Upcoming Events"
@@ -60,6 +60,12 @@ export default {
 </script>
 
 <style scoped>
+* {
+    box-sizing: border-box;
+}
+.card {
+    float: left;
+}
 div {
     background-color: lightgray;
 }

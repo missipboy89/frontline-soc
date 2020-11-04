@@ -7,9 +7,11 @@
             img-alt="Card Image"
             class="img"
         >
-            <b-card-text class="form">
-                CONTACT US
-            </b-card-text>
+            <b-container fluid=true>
+                <b-card-text class="form">
+                    CONTACT US
+                </b-card-text>
+            </b-container>
         </b-card>
         <b-container>
             <b-form action="https://formspree.io/f/xayljbqo"
@@ -101,31 +103,33 @@ export default {
   font-family: PLATOoN;
   src: local("PLATOoN"),
   url(../fonts/PLATOoN.ttf) format("truetype");
-}/* Mobile */
-@media (max-width: 480px) {
-    .form {
+}
+* { margin: 0; }
+
+@media only screen and (max-width: 600px) {
+.form {
     font-family: "PLATOoN";
-    font-size: 200px;
+    font-size: 60px;
     color: black;
     text-align: center;
     margin: auto;
-    padding: 100px;
+    padding: 10px;
     text-shadow: 2px 2px 20px white;
     }
-}/* low res tab */
-@media (min-width: 481px) and (max-width: 767px) {
-    .form {
+}
+@media only screen and (min-width: 600px) {
+.form {
     font-family: "PLATOoN";
-    font-size: 200px;
+    font-size: 80px;
     color: black;
     text-align: center;
     margin: auto;
-    padding: 100px;
+    padding: 10px;
     text-shadow: 2px 2px 20px white;
     }
-}/* Tab */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .form {
+}
+@media only screen and (min-width: 768px) {
+.form {
     font-family: "PLATOoN";
     font-size: 100px;
     color: black;
@@ -134,15 +138,26 @@ export default {
     padding: 50px;
     text-shadow: 2px 2px 20px white;
     }
-}/* Desktop */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .form {
+}
+@media only screen and (min-width: 992px) {
+.form {
     font-family: "PLATOoN";
-    font-size: 500px;
+    font-size: 130px;
     color: black;
     text-align: center;
     margin: auto;
-    padding: 100px;
+    padding: 50px;
+    text-shadow: 2px 2px 20px white;
+    }
+}
+@media only screen and (min-width: 1200px) {
+.form {
+    font-family: "PLATOoN";
+    font-size: 180px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 70px;
     text-shadow: 2px 2px 20px white;
     }
 }

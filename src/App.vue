@@ -31,7 +31,8 @@ export default {
 
 .platoon {
   font-family: "PLATOoN";
-  font-size: 10px;
+  font-size: 20px;
+  text-align: right;
   color: solid black;
   text-align: center;
   margin: auto;

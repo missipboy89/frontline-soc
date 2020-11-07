@@ -1,6 +1,14 @@
 <template>
   <div>
+      <!--
     <b-img :src="require('../assets/about.jpg')" fluid-grow></b-img>
+    -->
+    <b-embed
+    type="iframe"
+    aspect="16by9"
+    :src="require('../assets/rr.mp4')"
+    allowfullscreen
+  ></b-embed>
   </div>
 </template>
 

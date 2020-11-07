@@ -2,7 +2,7 @@
     <div>
         <b-img :src="require('../assets/unnamed2.jpg')" fluid-grow></b-img>
         <div>
-            <b-container fluid class="p-3 bg-dark">
+            <b-container fluid class="p-5 bg-dark">
                 <b-card-group deck>
                     <b-card title="Upcoming Events"
                     :img-src="require('../assets/cal.jpg')"
@@ -42,11 +42,9 @@
                     </b-card>
                 </b-card-group>
             </b-container>
-            <b-container fluid class="p-5 bg-dark">
-                <b-row>
-                    <b-img rounded :src="require('../assets/tim.jpg')" fluid-grow alt="Responsive image"></b-img>
-                </b-row>
-            </b-container>
+            <b-row class="p-5 bg-dark">
+                <b-img rounded :src="require('../assets/tim.jpg')" fluid-grow alt="Responsive image"></b-img>
+            </b-row>
         </div>
     </div>
 </template>

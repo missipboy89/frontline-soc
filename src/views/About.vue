@@ -4,7 +4,7 @@
     <b-img :src="require('../assets/about.jpg')" fluid-grow></b-img>
     -->
     <b-embed
-    type="iframe"
+    type="video"
     aspect="16by9"
     :src="require('../assets/rr.mp4')"
     allowfullscreen

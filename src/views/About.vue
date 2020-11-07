@@ -8,6 +8,7 @@
     aspect="16by9"
     :src="require('../assets/rr.mp4')"
     allowfullscreen
+    autoplay=true
   ></b-embed>
   </div>
 </template>

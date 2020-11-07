@@ -42,9 +42,7 @@
                     </b-card>
                 </b-card-group>
             </b-container>
-            <b-row class="p-5 bg-dark">
-                <b-img rounded :src="require('../assets/tim.jpg')" fluid-grow alt="Responsive image"></b-img>
-            </b-row>
+            <b-img rounded :src="require('../assets/tim.jpg')" class="p-5 bg-dark" fluid-grow alt="Responsive image"></b-img>
         </div>
     </div>
 </template>

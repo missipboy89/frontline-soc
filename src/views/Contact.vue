@@ -1,18 +1,6 @@
 <template>
     <div>
-        <b-card
-            overlay
-            text-variant="white"
-            :img-src="require('../assets/contact.jpg')"
-            img-alt="Card Image"
-            class="img"
-        >
-            <b-container fluid=true>
-                <b-card-text class="form">
-                    CONTACT US
-                </b-card-text>
-            </b-container>
-        </b-card>
+        <b-img :src="require('../assets/contact1.jpg')" fluid-grow></b-img>
         <b-container>
             <b-form action="https://formspree.io/f/xayljbqo"
             v-if="show"

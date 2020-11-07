@@ -1,18 +1,7 @@
 <template>
     <div>
         <!--Photo is a Temporary placeholder-->
-        <b-card
-            overlay
-            text-variant="white"
-            :img-src="require('../assets/cal.jpg')"
-            img-height="500px"
-            img-alt="Card Image"
-            class="img"
-        >
-            <b-card-text class="cal">
-                CALENDAR
-            </b-card-text>
-        </b-card>
+        <b-img :src="require('../assets/cal.jpg')" fluid-grow></b-img>
         <b-container>
             <b-table
                 striped

@@ -1,16 +1,6 @@
 <template>
   <div>
-    <b-card
-            overlay
-            text-variant="white"
-            :img-src="require('../assets/18160.jpg')"
-            img-alt="Card Image"
-            align="center"
-        >
-            <b-card-text class="abt">
-                ABOUT US
-            </b-card-text>
-        </b-card>
+    <b-img :src="require('../assets/about.jpg')" fluid-grow></b-img>
   </div>
 </template>
 

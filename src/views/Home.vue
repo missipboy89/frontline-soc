@@ -2,7 +2,7 @@
     <div>
         <b-img :src="require('../assets/unnamed2.jpg')" fluid-grow></b-img>
         <div>
-            <b-container fluid class="p-5 bg-dark">
+            <b-container fluid class="p-3 bg-dark">
                 <b-card-group deck>
                     <b-card title="Upcoming Events"
                     :img-src="require('../assets/cal.jpg')"

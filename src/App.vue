@@ -37,4 +37,13 @@ export default {
   text-align: center;
   margin: auto;
 }
+
+#nav-collapse{
+  justify-content: flex-end;
+}
+
+.navbar-brand{
+  margin-left: 0;
+}
+
 </style>

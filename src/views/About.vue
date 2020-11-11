@@ -1,8 +1,19 @@
 <template>
   <div>
-      <!--
     <b-img :src="require('../assets/about.jpg')" fluid-grow></b-img>
-    -->
+    <b-container fluid class="bg-light">
+        <b-row>
+            <h1 class="vision">Our Vision</h1>
+        </b-row>
+        <hr class="my-2">
+        <b-row>
+            <h3>
+                That the men of FRONTLINE will become united and always
+                honor the Lord Jesus Christ in every area of their lives.
+            </h3>
+        </b-row>
+    </b-container>
+    <!-- fun easter egg
     <b-embed
     type="video"
     aspect="16by9"
@@ -10,6 +21,7 @@
     allowfullscreen
     autoplay=true
   ></b-embed>
+    -->
   </div>
 </template>
 
@@ -85,5 +97,8 @@ img {
     max-height: 500px;
     width: 100%;
 }
+}
+h1 {
+    text-align: center;
 }
 </style>

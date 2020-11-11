@@ -5,7 +5,7 @@
           <b-container fluid class="p-3 bg-dark">
                 <b-card-group deck>
                     <b-card title="Upcoming Events"
-                    :img-src="require('../assets/cal.jpg')"
+                    :img-src="require('../assets/Slide1.jpg')"
                     img-alt="cross"
                     img-top
                     >
@@ -17,7 +17,7 @@
                         </template>
                     </b-card>
                     <b-card title="Our Mission"
-                    :img-src="require('../assets/cross.jpg')"
+                    :img-src="require('../assets/Slide2.jpg')"
                     img-alt="cross"
                     img-top
                     >
@@ -29,7 +29,7 @@
                         </template>
                     </b-card>
                     <b-card title="Upcoming Events"
-                    :img-src="require('../assets/cross.jpg')"
+                    :img-src="require('../assets/Slide3.jpg')"
                     img-alt="cross"
                     img-top
                     >
@@ -44,7 +44,7 @@
             </b-container>
             <b-container class="bg-dark" fluid>
               <b-container fluid="md" class="bg-dark">
-                <b-img rounded :src="require('../assets/tim.jpg')" class="p-5 bg-dark" fluid-grow alt="Responsive image"></b-img>
+                <b-img rounded :src="require('../assets/tim.jpg')" class="p-1 bg-dark" fluid-grow alt="Responsive image"></b-img>
               </b-container>
             </b-container>
         </div>

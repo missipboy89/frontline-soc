@@ -1,17 +1,26 @@
 <template>
   <div>
     <b-img :src="require('../assets/about.jpg')" fluid-grow></b-img>
-    <b-container fluid class="bg-light">
-        <b-row>
-            <h1 class="vision">Our Vision</h1>
-        </b-row>
-        <hr class="my-2">
-        <b-row>
-            <h3>
-                That the men of FRONTLINE will become united and always
-                honor the Lord Jesus Christ in every area of their lives.
-            </h3>
-        </b-row>
+    <b-card>
+        <b-card-text class="vis">
+            Our Vision
+        </b-card-text>
+        <hr class="my-3">
+        <b-card-text class="vis1">
+            ~The men of FRONTLINE will become united and always honor the Lord, Jesus Christ, in every area of their lives.~
+        </b-card-text>
+    </b-card>
+    <hr class="my-5">
+    <b-container fluid="lg">
+        <b-img rounded :src="require('../assets/mission.jpg')" fluid-grow alt="Responsive image"></b-img><b-card-text class="vis1">
+            The FRONTLINE Men’s Discipleship Training Class exists to develop biblically grounded men of faith who:
+        </b-card-text>
+        <b-list-group>
+            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> the word of God in study and prayer</b-list-group-item>
+            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Share with each other the burdens of life for the purpose of growth and encouragement</b-list-group-item>
+            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Reach other men in the community with the Gospel</b-list-group-item>
+            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Lead their families in worship</b-list-group-item>
+        </b-list-group>
     </b-container>
     <!-- fun easter egg
     <b-embed
@@ -98,7 +107,14 @@ img {
     width: 100%;
 }
 }
-h1 {
+.vis {
     text-align: center;
+    font-size: 75px;
+    background-color: rgb(245, 243, 243);
+    font-weight: bold;
+}
+.vis1 {
+    text-align: center;
+    font-size: 30px;
 }
 </style>

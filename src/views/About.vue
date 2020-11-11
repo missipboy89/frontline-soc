@@ -16,7 +16,7 @@
             The FRONTLINE Men’s Discipleship Training Class exists to develop biblically grounded men of faith who:
         </b-card-text>
         <b-list-group>
-            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> the word of God in study and prayer</b-list-group-item>
+            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Seek the Word of God in study and prayer</b-list-group-item>
             <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Share with each other the burdens of life for the purpose of growth and encouragement</b-list-group-item>
             <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Reach other men in the community with the Gospel</b-list-group-item>
             <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Lead their families in worship</b-list-group-item>

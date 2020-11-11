@@ -7,7 +7,7 @@
         </b-card-text>
         <hr class="my-3">
         <b-card-text class="vis1">
-            ~The men of FRONTLINE will become united and always honor the Lord, Jesus Christ, in every area of their lives.~
+            ~That the men of FRONTLINE will become united and always honor the Lord, Jesus Christ, in every area of their lives.~
         </b-card-text>
     </b-card>
     <hr class="my-5">

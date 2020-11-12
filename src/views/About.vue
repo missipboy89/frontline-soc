@@ -145,19 +145,23 @@ img {
 }
 }
 .vis {
+    text-align: center;
     font-size: 75px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;
 }
 .vis1 {
+    text-align: center;
     font-size: 30px;
 }
 .vis2 {
+    text-align: center;
     font-size: 40px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;
 }
 .foun {
+    text-align: center;
     font-size: 60px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;

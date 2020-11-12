@@ -26,14 +26,14 @@
     <hr class="my-5">
     <b-container fluid="lg">
         <b-card>
-            <b-card-text>
+            <b-card-text class="foun">
                 Foundational Verse
             </b-card-text>
             <hr class="my-1">
-            <b-card-text>
+            <b-card-text class="vis2">
                 2 Timothy 2:3-4
             </b-card-text>
-            <b-card-text>
+            <b-card-text class="vis1">
                 Join with me in suffering, like a good soldier of Christ Jesus.  No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer.
             </b-card-text>
         </b-card>
@@ -145,23 +145,19 @@ img {
 }
 }
 .vis {
-    text-align: center;
     font-size: 75px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;
 }
 .vis1 {
-    text-align: center;
     font-size: 30px;
 }
 .vis2 {
-    text-align: center;
     font-size: 40px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;
 }
 .foun {
-    text-align: center;
     font-size: 60px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;

@@ -12,7 +12,8 @@
     </b-card>
     <hr class="my-5">
     <b-container fluid="lg">
-        <b-img rounded :src="require('../assets/mission.jpg')" fluid-grow alt="Responsive image"></b-img><b-card-text class="vis1">
+        <b-img :src="require('../assets/mission.jpg')" fluid-grow alt="Responsive image"></b-img>
+        <b-card-text class="vis1">
             The FRONTLINE Men’s Discipleship Training Class exists to develop biblically grounded men of faith who:
         </b-card-text>
         <b-list-group>
@@ -22,18 +23,41 @@
             <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Lead their families in worship</b-list-group-item>
         </b-list-group>
     </b-container>
+    <hr class="my-5">
     <b-container fluid="lg">
-        <hr class="my-5">
-        <b-card-text class="vis">
-            Foundational Verse
-        </b-card-text>
-        <hr class="my-1">
-        <b-card-text class="vis2">
-            2 Timothy 2:3-4
-        </b-card-text>
-        <b-card-text class="vis1">
-            Join with me in suffering, like a good soldier of Christ Jesus.  No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer.
-        </b-card-text>
+        <b-card>
+            <b-card-text class="foun">
+                Foundational Verse
+            </b-card-text>
+            <hr class="my-1">
+            <b-card-text class="vis2">
+                2 Timothy 2:3-4
+            </b-card-text>
+            <b-card-text class="vis1">
+                Join with me in suffering, like a good soldier of Christ Jesus.  No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer.
+            </b-card-text>
+        </b-card>
+    </b-container>
+    <hr class="my-5">
+    <b-container fluid="lg">
+        <b-card no-body class="overflow-hidden">
+            <b-row no-gutters>
+                <b-col md="6">
+                    <b-card-img :src="require('../assets/flmin.jpg')" class="rounded-0"></b-card-img>
+                </b-col>
+                <b-col md="6">
+                    <b-card-body>
+                        <b-list-group flush>
+                            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Meets Wednesday nights (following dinner and church family meeting) at 6:30pm in Room 211</b-list-group-item>
+                            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Men's Night Out - Once a month we meet at church and travel to a restaurant for food and fellowship with the intent of making new relationships.</b-list-group-item>
+                            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Many members are involved in homeless ministry</b-list-group-item>
+                            <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Annually we try to attend a men's conference in the tri-state area</b-list-group-item>
+                            <b-list-group-item><b-button variant="primary" to="/calendar">Found Out More</b-button></b-list-group-item>
+                        </b-list-group>
+                    </b-card-body>
+                </b-col>
+            </b-row>
+        </b-card>
     </b-container>
     <!-- fun easter egg
     <b-embed
@@ -132,7 +156,13 @@ img {
 }
 .vis2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    background-color: rgb(245, 243, 243);
+    font-weight: bold;
+}
+.foun {
+    text-align: center;
+    font-size: 60px;
     background-color: rgb(245, 243, 243);
     font-weight: bold;
 }

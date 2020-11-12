@@ -22,6 +22,19 @@
             <b-list-group-item><b-icon icon="caret-right-fill"></b-icon> Lead their families in worship</b-list-group-item>
         </b-list-group>
     </b-container>
+    <b-container fluid="lg">
+        <hr class="my-5">
+        <b-card-text class="vis">
+            Foundational Verse
+        </b-card-text>
+        <hr class="my-1">
+        <b-card-text class="vis2">
+            2 Timothy 2:3-4
+        </b-card-text>
+        <b-card-text class="vis1">
+            Join with me in suffering, like a good soldier of Christ Jesus.  No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer.
+        </b-card-text>
+    </b-container>
     <!-- fun easter egg
     <b-embed
     type="video"
@@ -116,5 +129,11 @@ img {
 .vis1 {
     text-align: center;
     font-size: 30px;
+}
+.vis2 {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(245, 243, 243);
+    font-weight: bold;
 }
 </style>
